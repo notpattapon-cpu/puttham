@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วัดสวยภาคใต้</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="region-south"> <header>
+    <header style="background: linear-gradient(135deg, #2c3e50, #2980b9);">
+        <h1>วัดสวย ภาคใต้</h1>
+        <p>ศรัทธาแห่งคาบสมุทร ทะเลงาม และขุนเขา</p>
+    </header>
+    <div class="container">
+        <div class="nav-bar"><a href="index.html" class="btn-back">← กลับหน้าหลัก</a></div>
+        <div class="temple-grid">
+            <div class="temple-card">
+                <img src="https://img.watportal.com/file/0/XJgnFzzb1eq9bpwh/bygweb/chedi/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8_190308_0006_1.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">1. วัดพระมหาธาตุฯ (นครศรีฯ)</div>
+                    <div class="temple-desc">พระธาตุไร้เงา ศักดิ์สิทธิ์คู่แดนใต้</div>
+                    <button class="btn-detail" onclick="openModal('วัดพระมหาธาตุวรมหาวิหาร', 'https://img.watportal.com/file/0/XJgnFzzb1eq9bpwh/bygweb/chedi/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8_190308_0006_1.jpg', 'วัดคู่บ้านคู่เมืองนครศรีธรรมราช มีพระบรมธาตุเจดีย์ทรงลังกาสีทองอร่าม ที่มีเรื่องเล่าขานว่าไม่มีเงาทอดลงพื้นไม่ว่าแดดจะส่องมุมไหน', '08:00 - 16:30 น.', 'https://maps.app.goo.gl/4RFF26byLCJoR2EU9')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.thaitoptour.com/wp-content/uploads/2019/05/chalongtemple.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">2. วัดฉลอง (ภูเก็ต)</div>
+                    <div class="temple-desc">วัดคู่เมืองภูเก็ต บารมีหลวงพ่อแช่ม</div>
+                    <button class="btn-detail" onclick="openModal('วัดไชยธาราราม (วัดฉลอง)', 'https://www.thaitoptour.com/wp-content/uploads/2019/05/chalongtemple.jpg', 'วัดที่มีชื่อเสียงที่สุดในภูเก็ต มากราบไหว้รูปหล่อหลวงพ่อแช่ม และชมพระมหาธาตุเจดีย์พระจอมไทยบารมีประกาศ', '08:00 - 17:00 น.', 'https://maps.app.goo.gl/5JyohNvaxE12KDwE6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.thaitoptour.com/wp-content/uploads/2020/03/5-28.jpg"temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">3. วัดเจดีย์ (ไอ้ไข่) (นครศรีฯ)</div>
+                    <div class="temple-desc">ตำนานไอ้ไข่ ขอได้ไหว้รับ</div>
+                    <button class="btn-detail" onclick="openModal('วัดเจดีย์ (ไอ้ไข่)', 'https://www.thaitoptour.com/wp-content/uploads/2020/03/5-28.jpg', 'โด่งดังเรื่องการขอพรโชคลาภและการค้าขาย ด้วยตำนานวิญญาณศักดิ์สิทธิ์ของเด็กวัดเจดีย์ ผู้คนนิยมนำรูปปั้นไก่และประทัดมาแก้บน', '08:00 - 17:00 น.', 'https://maps.app.goo.gl/iYo91ePpN8eANJJVA')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.trip-attractive.com/wp-content/uploads/2017/04/krabi-town-wat-tham-seu-krabi-coastal-fisheries-research-and-development-center-270x180.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">4. วัดถ้ำเสือ (กระบี่)</div>
+                    <div class="temple-desc">พิชิต 1,237 ขั้น ชมวิวทะเลหมอก</div>
+                    <button class="btn-detail" onclick="openModal('วัดถ้ำเสือ', 'https://www.trip-attractive.com/wp-content/uploads/2017/04/krabi-town-wat-tham-seu-krabi-coastal-fisheries-research-and-development-center-270x180.jpg', 'ท้าทายความศรัทธาด้วยบันได 1,237 ขั้น เพื่อขึ้นไปสักการะสิ่งศักดิ์สิทธิ์บนยอดเขา พร้อมชมวิวเมืองกระบี่และภูเขาหินปูนแบบ 360 องศา', '06:00 - 18:00 น.', 'https://maps.app.goo.gl/MaYPR2yJfxGmjDbZ6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.pullmanphuketkaron.com/wp-content/uploads/sites/292/2025/04/Big-Buddha-Phuket.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">5. พระใหญ่ (ภูเก็ต)</div>
+                    <div class="temple-desc">พระพุทธรูปหินอ่อนขาว บนยอดเขาสูง</div>
+                    <button class="btn-detail" onclick="openModal('พระพุทธมิ่งมงคลเอกนาคคีรี', 'https://www.pullmanphuketkaron.com/wp-content/uploads/sites/292/2025/04/Big-Buddha-Phuket.jpg', 'พระพุทธรูปหินอ่อนสีขาวองค์ใหญ่ (Big Buddha) ตั้งตระหง่านบนยอดเขานาคเกิด เห็นวิวทะเลภูเก็ตสวยงามตระการตา', '08:00 - 19:00 น.', 'https://maps.app.goo.gl/ZVTDCG8bUiA91iXP8')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://palanla.com//upload/dms/real/pic-202317011673975309_98549.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">6. วัดพระบรมธาตุไชยา (สุราษฎร์ฯ)</div>
+                    <div class="temple-desc">ศิลปะศรีวิชัยที่สมบูรณ์ที่สุด</div>
+                    <button class="btn-detail" onclick="openModal('วัดพระบรมธาตุไชยาราชวรวิหาร', 'https://palanla.com//upload/dms/real/pic-202317011673975309_98549.jpg', 'โบราณสถานศักดิ์สิทธิ์ที่แสดงถึงความรุ่งเรืองของอาณาจักรศรีวิชัยในอดีต เจดีย์ทรงปราสาทงดงามแปลกตาและหาชมได้ยาก', '08:00 - 16:30 น.', 'https://maps.app.goo.gl/aLSk2TZKU6Lc5obQ9')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://cbtthailand.dasta.or.th/upload-file-api/Resources/RelateAttraction/Images/RAT820277/2.jpeg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">7. วัดบางเหรียง (พังงา)</div>
+                    <div class="temple-desc">วัดสวยบนขุนเขา ท่ามกลางธรรมชาติ</div>
+                    <button class="btn-detail" onclick="openModal('วัดบางเหรียง', 'https://cbtthailand.dasta.or.th/upload-file-api/Resources/RelateAttraction/Images/RAT820277/2.jpeg', 'วัดราษฎร์อุปถัมภ์ ตั้งอยู่บนยอดเขาล้าน บรรยากาศเงียบสงบ มีเจ้าแม่กวนอิมและพระพุทธอภัยทานองค์ใหญ่กลางแจ้ง', '07:00 - 17:00 น.', 'https://maps.app.goo.gl/zTqEqKpdQziCHe347')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://kohyor.go.th/image/ratio/?file=files/com_travel/2017-09_8cd255acd717dd6.jpg&width=700&height=500" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">8.วัดแหลมพ้อ (สงขลา) </div>
+                    <div class="temple-desc">พระนอนองค์ใหญ่ ริมทะเลสาบสงขลา</div>
+                    <button class="btn-detail" onclick="openModal('วัดแหลมพ้อ', 'https://kohyor.go.th/image/ratio/?file=files/com_travel/2017-09_8cd255acd717dd6.jpg&width=700&height=500', 'วัดเก่าแก่บนเกาะยอ ไฮไลท์คือพระสมเด็จเจ้าเกาะยอ เป็นพระพุทธรูปปางปรินิพพานองค์ใหญ่สีทองอร่าม นอนทอดตัวยาวริมทะเลสาบ', '08:00 - 18:00 น.', 'https://maps.app.goo.gl/bcThW1sTDKeofFvU6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://mpics.mgronline.com/pics/Images/567000002751503.JPEG" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">9. วัดคูหาภิมุข (ยะลา)</div>
+                    <div class="temple-desc">วัดถ้ำศักดิ์สิทธิ์ พระนอนสมัยศรีวิชัย</div>
+                    <button class="btn-detail" onclick="openModal('วัดคูหาภิมุข (วัดหน้าถ้ำ)', 'https://mpics.mgronline.com/pics/Images/567000002751503.JPEG', 'ภายในถ้ำมีหินงอกหินย้อยสวยงาม และประดิษฐานพระพุทธไสยาสน์ (พระนอน) ขนาดใหญ่ สร้างขึ้นตั้งแต่สมัยศรีวิชัย', '07:00 - 17:00 น.', 'https://maps.app.goo.gl/c6ou7ABX3PB4G6vr5')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01zFlWr40cM-hJqToN-197HHtBOnTfkqFuQ&s" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">10. วัดทางสาย (ประจวบฯ)</div>
+                    <div class="temple-desc">เจดีย์ยอดทอง 9 ยอด ริมทะเลบ้านกรูด</div>
+                    <button class="btn-detail" onclick="openModal('วัดทางสาย', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01zFlWr40cM-hJqToN-197HHtBOnTfkqFuQ&s', 'โดดเด่นด้วยพระมหาธาตุเจดีย์ภักดีประกาศ ซึ่งมีเจดีย์ถึง 9 ยอด สถาปัตยกรรมไทยอันวิจิตร ตั้งอยู่บนเขาธงชัย ริมทะเลหาดบ้านกรูด', '08:00 - 17:00 น.', 'https://maps.app.goo.gl/scgyhNNLaecHt6zA6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templeModal" class="modal"><div class="modal-content"><span class="close-btn" onclick="closeModal()">×</span><img id="m-img" src="" class="modal-img-full"><div class="modal-body"><h2 id="m-title"></h2><span class="info-badge">🕒 <span id="m-time"></span></span><p id="m-desc" style="line-height: 1.6; margin-top:15px;"></p><a id="m-map" href="#" target="_blank" class="btn-map"> นำทาง (Google Maps)</a></div></div></div>
+    <script>function openModal(t, i, d, time, m) {document.getElementById("m-title").innerText = t;document.getElementById("m-img").src = i;document.getElementById("m-desc").innerText = d;document.getElementById("m-time").innerText = time;document.getElementById("m-map").href = m;document.getElementById("templeModal").style.display = "block";}function closeModal() { document.getElementById("templeModal").style.display = "none"; }window.onclick = function(e) { if(e.target == document.getElementById("templeModal")) closeModal(); }</script>
+</body>
+</html>

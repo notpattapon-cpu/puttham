@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วัดสวยภาคอีสาน</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="region-northeast"> <header>
+    <header style="background: linear-gradient(135deg, #2c3e50, #d35400);">
+        <h1>วัดสวย ภาคอีสาน</h1>
+        <p>ดินแดนศักดิ์สิทธิ์ ที่ราบสูง และตำนานพญานาค</p>
+    </header>
+    <div class="container">
+        <div class="nav-bar"><a href="index.html" class="btn-back">&larr; กลับหน้าหลัก</a></div>
+        <div class="temple-grid">
+            <div class="temple-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sinrinthorn_temple.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">1. วัดสิรินธรวรารามฯ (อุบลฯ)</div>
+                    <div class="temple-desc">วัดเรืองแสง Unseen Thailand ยามค่ำคืน</div>
+                    <button class="btn-detail" onclick="openModal('วัดสิรินธรวรารามภูพร้าว', 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Sinrinthorn_temple.jpg', 'หรือวัดเรืองแสง ไฮไลท์คือจิตรกรรมต้นกัลปพฤกษ์ด้านหลังอุโบสถที่จะเรืองแสงสีเขียวสวยงามเมื่อท้องฟ้าเริ่มมืด', '06:00 - 20:00 น.', 'https://maps.app.goo.gl/tDZfpuikUDnskbvN7')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://cms.dmpcdn.com/travel/2021/12/14/4faf0ba0-5cc4-11ec-96c5-79a6e95c0174_webp_original.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">2. วัดพระธาตุพนม (นครพนม)</div>
+                    <div class="temple-desc">พระธาตุศักดิ์สิทธิ์ ศูนย์รวมศรัทธาชาวลุ่มน้ำโขง</div>
+                    <button class="btn-detail" onclick="openModal('วัดพระธาตุพนมวรมหาวิหาร', 'https://cms.dmpcdn.com/travel/2021/12/14/4faf0ba0-5cc4-11ec-96c5-79a6e95c0174_webp_original.jpg', 'พระธาตุประจำปีเกิดปีวอก และวันอาทิตย์ เป็นสิ่งศักดิ์สิทธิ์คู่บ้านคู่เมืองที่ชาวไทยและลาวให้ความเคารพนับถือสูงสุด', '06:00 - 20:00 น.', 'https://maps.app.goo.gl/NpTXYxBGAgxFW9FW6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxn02M5BaTceF_6RQ0qdu8BhO9WRpB-JeawXRoruMI4FamLXQw9NnzduC0itcEIYD41aEaA_ggmHiRhPQgQmVeRyGbrsHltvbM8UeVblldsfXPGmaNgdVCqXcgNAyvfVUZJXrM-=s680-w680-h510-rw" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">3.วัดภูมโนรมย์(มุกดาหาร)</div>
+                    <div class="temple-desc">รอยพระพุทธบาทภูมโนรมย์</div>
+                    <button class="btn-detail" onclick="openModal('วัดภูมโนรมย์', 'https://th.bing.com/th/id/R.db860563ff56d35ba3fc0b4baa295551?rik=MDc9lBfoDBzj3A&riu=http%3a%2f%2fhotelandresortthailand.com%2fread%2fwp-content%2fuploads%2f2020%2f08%2fAmazingThailand.jpg&ehk=0hMqk4re%2baWDxy807YGnjIivK7O%2fEZWN2uz28phKjTA%3d&risl=&pid=ImgRaw&r=0', 'องค์พ่อปู่พญานาคศรีมุกดามหามุนีนีลปาลนาคราช หรือ พญานาคฟ้า (สวรรค์พิภพ) ', '06:00 - 18:00 น.', 'https://maps.app.goo.gl/VbsBJFxi5paPsYLQ8')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://cms.dmpcdn.com/travel/2020/01/31/8f4a9690-441a-11ea-b15d-6d8d355a34c9_original.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">4. วัดป่าภูก้อน (อุดรธานี)</div>
+                    <div class="temple-desc">วิหารสีฟ้าคราม ท่ามกลางป่าเขาเขียวขจี</div>
+                    <button class="btn-detail" onclick="openModal('วัดป่าภูก้อน', 'https://cms.dmpcdn.com/travel/2020/01/31/8f4a9690-441a-11ea-b15d-6d8d355a34c9_original.jpg', 'พุทธสถานท่ามกลางธรรมชาติ วิหารสีฟ้าสวยงาม ประดิษฐานพระพุทธไสยาสน์หินอ่อนสีขาว สงบและร่มเย็น', '08:30 - 17:00 น.', 'https://maps.app.goo.gl/TPPUaUKK6SdWY5px6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.fun-d.net/wp-content/uploads/2022/09/Wat-Tham-Pha-Daen-1.jpg" class="temple-img" style="background-color:#ccc;">
+                <div class="temple-info">
+                    <div class="temple-name">5. วัดถ้ำผาแด่น (สกลนคร)</div>
+                    <div class="temple-desc">สวนพุทธธรรมบนภูเขา แกะสลักหินทราย</div>
+                    <button class="btn-detail" onclick="openModal('วัดถ้ำผาแด่น', 'https://www.fun-d.net/wp-content/uploads/2022/09/Wat-Tham-Pha-Daen-1.jpg', 'วัดสวยบนเทือกเขาภูพาน โดดเด่นด้วยงานแกะสลักหินทรายเรื่องราวพุทธประวัติ และองค์พญานาคปรกขนาดใหญ่', '06:00 - 17:00 น.', 'https://maps.app.goo.gl/9MDHAC3ot6nK5bvs9')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://pukmudmuangthai.com/wp-content/uploads/2021/02/%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A7%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87-Medium.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">6. พระธาตุหนองแวง (ขอนแก่น)</div>
+                    <div class="temple-desc">พระธาตุ 9 ชั้น ชมวิวเมืองขอนแก่น</div>
+                    <button class="btn-detail" onclick="openModal('วัดพระธาตุหนองแวง', 'https://pukmudmuangthai.com/wp-content/uploads/2021/02/%E0%B8%82%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%99-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A7%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87-Medium.jpg', 'พระมหาธาตุแก่นนคร มีความสูงถึง 9 ชั้น ศิลปะทวารวดี สามารถเดินขึ้นไปกราบไหว้และชมทัศนียภาพบึงแก่นนครได้จากมุมสูง', '07:00 - 18:00 น.', 'https://maps.app.goo.gl/xhQCkwHazzxvHh9a7')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://storage.googleapis.com/download/storage/v1/b/kmcc-prod-thumbnail/o/media%2Fb2aca5b0-a0e3-4142-bdda-c4d914ebd465.jpg?generation=1731393676042105&alt=media" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">7. ศาลาแก้วกู่ (หนองคาย)</div>
+                    <div class="temple-desc">อุทยานเทวาลัย รูปปั้นยักษ์สุดอลังการ</div>
+                    <button class="btn-detail" onclick="openModal('ศาลาแก้วกู่', 'https://storage.googleapis.com/download/storage/v1/b/kmcc-prod-thumbnail/o/media%2Fb2aca5b0-a0e3-4142-bdda-c4d914ebd465.jpg?generation=1731393676042105&alt=media', 'สำนักสงฆ์ที่มีประติมากรรมปูนปั้นขนาดใหญ่มากมาย ทั้งพระพุทธรูป เทวรูป และเรื่องราวนรก-สวรรค์ ให้ความรู้สึกขลังและแปลกตา', '08:00 - 18:00 น.', 'https://maps.app.goo.gl/xVngG2jrjGJAjRHu6')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyhLpJ9sG1jeWpyzxOBg3H69mh5m3r5XR--RQREQFtqIr0UvFJWwBpbefNRmHYgoxnhlbydhxRcAh5ZMMl303ExjZjD9y7YnteT2xqH82eVKfxjQVQKNEeu6Sx2A-IMFFlHaHLhHg=s680-w680-h510-rw" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">8. วัดป่าภูหายหลง (นครราชสีมา)</div>
+                    <div class="temple-desc">วัดสวยบนยอดเขา สัมผัสสายหมอก</div>
+                    <button class="btn-detail" onclick="openModal('วัดป่าภูหายหลง', 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyhLpJ9sG1jeWpyzxOBg3H69mh5m3r5XR--RQREQFtqIr0UvFJWwBpbefNRmHYgoxnhlbydhxRcAh5ZMMl303ExjZjD9y7YnteT2xqH82eVKfxjQVQKNEeu6Sx2A-IMFFlHaHLhHg=s680-w680-h510-rw', 'วัดที่ตั้งอยู่บนยอดเขาสูงในอำเภอปากช่อง ยามเช้ามักมีสายหมอกปกคลุมสวยงามราวกับภาพวาด', '05:30 - 17:00 น.', 'https://maps.app.goo.gl/171qxvibUrCXdeds5')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://www.finearts.go.th/storage/contents/2022/05/detail_image/PrLoU3RxF1vSqUNkLRyexPpP8jNz2gPNKjhwFN3L.jpeg" class="temple-img" style="background-color:#eee;">
+                <div class="temple-info">
+                    <div class="temple-name">9. วัดบูรพาราม (อุบลฯ)</div>
+                    <div class="temple-desc">พระอุโบสถบนเรือสุพรรณหงส์</div>
+                    <button class="btn-detail" onclick="openModal('วัดบูรพาราม', 'https://www.finearts.go.th/storage/contents/2022/05/detail_image/PrLoU3RxF1vSqUNkLRyexPpP8jNz2gPNKjhwFN3L.jpeg', 'โดดเด่นด้วยพระอุโบสถสีขาวที่สร้างอยู่บนเรือสุพรรณหงส์ขนาดใหญ่ ลวดลายวิจิตรบรรจง สวยงามแปลกตา', '08:00 - 17:00 น.', 'https://maps.app.goo.gl/2LH8sxM6axsHVyC6A')">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="temple-card">
+                <img src="https://img.wongnai.com/p/1920x0/2022/04/13/0b0da032484d4b4c9fd6822344481eb6.jpg" class="temple-img">
+                <div class="temple-info">
+                    <div class="temple-name">10. วัดวังคำ (กาฬสินธุ์)</div>
+                    <div class="temple-desc">จำลองศิลปะล้านช้าง หลวงพระบาง</div>
+                    <button class="btn-detail" onclick="openModal('วัดวังคำ', 'https://img.wongnai.com/p/1920x0/2022/04/13/0b0da032484d4b4c9fd6822344481eb6.jpg', 'วัดที่ถอดแบบสถาปัตยกรรมมาจากวัดเชียงทอง หลวงพระบาง ประเทศลาว ด้วยโทนสีดำ-ทอง และลวดลายประดับกระจกสีที่งดงาม', '08:00 - 17:00 น.', 'https://maps.app.goo.gl/8rNNzDwzScK5YKGC7')">ดูรายละเอียด</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templeModal" class="modal"><div class="modal-content"><span class="close-btn" onclick="closeModal()">&times;</span><img id="m-img" src="" class="modal-img-full"><div class="modal-body"><h2 id="m-title"></h2><span class="info-badge">🕒 <span id="m-time"></span></span><p id="m-desc" style="line-height: 1.6; margin-top:15px;"></p><a id="m-map" href="#" target="_blank" class="btn-map"> นำทาง (Google Maps)</a></div></div></div>
+    <script>function openModal(t, i, d, time, m) {document.getElementById("m-title").innerText = t;document.getElementById("m-img").src = i;document.getElementById("m-desc").innerText = d;document.getElementById("m-time").innerText = time;document.getElementById("m-map").href = m;document.getElementById("templeModal").style.display = "block";}function closeModal() { document.getElementById("templeModal").style.display = "none"; }window.onclick = function(e) { if(e.target == document.getElementById("templeModal")) closeModal(); }</script>
+</body>
+</html>
